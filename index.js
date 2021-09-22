@@ -40,7 +40,7 @@ async function getPictureFromId(picId){
 
 async function getUsers(){
     const response = await fetch(`mpp.erikpineiro.se/dbp/sameTaste/users.php`);
-    const users = await response;
+    const users = await response.json();
     return users;
 }
 
