@@ -83,10 +83,8 @@ getUsers()
         picFetching.classList.add("hide");
         createUsersField(allUsers);
         document.getElementById("19").click();
-    }
-    
+    }  
 })
-.catch(error => console.log(error));
 
 function createUsersField (arrayOfUsers){
 
